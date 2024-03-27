@@ -67,9 +67,19 @@ button{
     display: flex;
 }
 
-.information-sec div{
-    background: #e5e7eb;
-    border: 4px solid #3882f6;
+
+
+
+
+  .information-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
     height: 100px;
-    flex: 1;
-  }
+    background-color: #007bff;
+    margin: 10px;
+}
